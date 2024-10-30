@@ -8,7 +8,7 @@ class Config(object):
     API_ID    = os.environ.get("API_ID", "26254064")  # ⚠️ Required
     API_HASH  = os.environ.get("API_HASH", "72541d6610ae7730e6135af9423b319c") # ⚠️ Required
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7581285542:AAFASkPPL7R9mTO_uHC4iuignWs3xMSp2oo") # ⚠️ Required
-    FORCE_SUB = os.environ.get('FORCE_SUB', 'AnimeQuestX') # ⚠️ Required
+    FORCE_SUB = os.environ.get('FORCE_SUB', '-1002125561929') # ⚠️ Required
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None
    
