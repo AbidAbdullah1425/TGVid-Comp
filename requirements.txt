@@ -3,6 +3,7 @@ TgCrypto
 python-dotenv
 hachoir
 ffmpeg-python
+ffmpeg
 aiohttp
 motor
 pytz
